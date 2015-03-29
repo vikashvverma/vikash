@@ -1,0 +1,48 @@
+<div class="site">
+    <div class="outer">
+    <div class="middle">
+        <div class="inner" id="box" style="background-color:red;">
+            <span id="greeting_text" style="display:none;">Welcome</span>
+        </div>
+
+        </div>
+    </div>
+
+    <div class="geek-nav">
+        <div class="geek-header waves-effect text-white red accent-2">
+            <div class="name white-text">Vikash <strong>Verma</strong></div>
+            <div class="designation right-align">Developer</div>
+            <div class="website right-align"><a href="http://www.programminggeek.in" target="_blank">www.programminggeek.in</a>
+            </div>
+        </div>
+        <div class="menu ">
+            <a class="waves-effect red-text" ng-click="getContent('profile');" ng-class="{'active':geek.content=='profile'}">
+                <i class="mdi-social-person  accent-2" ></i>
+                <div class="item  darken-1 .hide-on-small-only" >Profile</div>
+            </a>
+            <a class="waves-effect purple-text" ng-click="getContent('experience');" ng-class="{'active':geek.content=='experience'}">
+                <i class="mdi-action-history  accent-2" ></i>
+                <div class="item  darken-1 .hide-on-small-only" >Experience</div>
+            </a>
+            <a class="waves-effect green-text" ng-click="getContent('projects');" ng-class="{'active':geek.content=='projects'}">
+                <i class="mdi-av-web  accent-2" ></i>
+                <div class="item  darken-1 .hide-on-small-only" >Projects</div>
+            </a>
+            <a class="waves-effect blue-text" ng-click="getContent('skills');" ng-class="{'active':geek.content=='skills'}">
+                <i class="mdi-av-equalizer  accent-2" ></i>
+                <div class="item  darken-1 .hide-on-small-only" >Skills</div>
+            </a>
+            <a class="waves-effect amber-text" ng-click="getContent('education');" ng-class="{'active':geek.content=='education'}">
+                <i class="mdi-social-school  accent-2" ></i>
+                <div class="item t darken-1 .hide-on-small-only" >Education</div>
+            </a>
+        </div>
+    </div>
+    <div class="content rotate" ng-include=" './App/Views/profile.html' " id="profile" ng-show="geek.content=='profile'"> </div>
+    <div class="content rotate" ng-include=" './App/Views/experience.html' " id="experience" ng-show="geek.content=='experience'"> </div>
+    <div class="content rotate" ng-include=" './App/Views/projects.html' " id="projects" ng-show="geek.content=='projects'"> </div>
+    <div class="content rotate" ng-include=" './App/Views/skills.html' " id="skills" ng-show="geek.content=='skills'"> </div>
+    <div class="content rotate" ng-include=" './App/Views/education.html' " id="education" ng-show="geek.content=='education'"   > </div>
+
+
+</div>

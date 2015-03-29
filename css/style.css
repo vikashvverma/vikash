@@ -1,0 +1,214 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+@media only screen and (max-width: 460px){
+    .logo {
+        flex: 0 0 100% !important;
+    }
+}
+
+
+@media only screen and (max-width: 767px) and (min-width: 460px){
+    .logo {
+        flex: 0 0 33% !important;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 767px){
+    .logo {
+        flex: 0 0 25% !important;
+    }
+}
+@media only screen (min-width: 900px){
+    .logo {
+        flex: 0 0 15% !important;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .geek-nav{
+        box-shadow: 4px 0 6px rgba(0,0,0,.1);
+        min-width:0;
+        max-width: 50px !important;
+        width: 50px;
+    }
+    .geek-nav .geek-header{
+        display: none !important;
+    }
+    .geek-nav .menu a .item{
+        display: none !important;
+    }
+    .geek-nav .menu a{
+        padding-top: 15px !important;
+        padding-bottom: 20px !important;
+        text-align: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+    .content{
+        margin-left: 50px;
+        padding: 2%;
+    }
+
+}
+@media only screen and (min-width: 768px){
+    .geek-nav {
+        -mox-box-flex: 0 0 250px;
+        -ms-flex: 0 0 250px;
+        -webkit-flex: 0 0 250px;
+        flex: 0 0 250px;
+        min-width: 250px;
+        position: relative;
+        box-shadow: 4px 0 6px rgba(0,0,0,.1);
+        max-width:21% !important;
+    }
+    .geek-nav .menu a{
+
+        padding: 4px 0 4px 24px;
+    }
+    .content{
+        padding: 2%;
+        margin-left: 250px;
+    }
+}
+
+.geek-nav{
+    min-height: 100%;
+    position: fixed;
+    display: none;
+}
+
+.geek-nav .geek-header{
+/*    background-color:red;*/
+    padding: 20px;
+    min-height: 40%;
+    display: none;
+}
+.name{
+/*    width: 90%;*/
+    font-size: 30px;
+    text-align: right;
+    font-weight: lighter;
+}
+.geek-nav .menu a{
+    display: flex;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    text-decoration: none;
+    background: rgba(0,0,0,.03);
+    width: 100%;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    display: none;
+}
+.geek-nav .menu a i{
+    line-height: 40px;
+    max-height: 40px;
+    font-size: 30px;
+    display: none;
+}
+.geek-nav .menu a .item{
+    padding-left: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    max-height: 40px;
+    display: none;
+}
+
+.site{
+    height: 100%;
+}
+.content{
+/*    display: none;*/
+}
+
+
+
+.outer{
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner{
+    margin-left: auto;
+    margin-right: auto;
+    width: 0px
+}
+
+.b-icon{
+    font-size: 15px;
+    display: flex;
+    line-height: 25px;
+}
+.b-icon i{
+    padding-right: 15px;
+    font-size: 25px;
+}
+
+.logos{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+/*    margin-bottom: 40px;*/
+    width: 100%;
+    padding: 20px;
+}
+.logo{
+    position: relative;
+    flex: 0 0 15%;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+/*
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+*/
+}
+img{
+    display: block;
+    margin: 0px auto;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
+.heading{
+    font-size: 30px;
+    line-height: 60px;
+}
+.heading img{
+ height:60px;
+padding-right: 20px;
+
+}
+
+.sub-heading{
+
+}
+.work li{
+    margin-bottom: 20px;
+}
+.card ul li i{
+    margin-right:10px;
+}
+
+.card-action .work{
+    margin-top:30px;
+}
+.menu .active{
+    background-color: rgb(237, 237, 237) !important;
+}
