@@ -52,7 +52,7 @@ angular.module('geek') .directive('geekIntro', function () {
             autoAlpha:0
         })
         .from(jQuery('.geek-nav'),0.50,{
-            
+
             marginLeft:'-250px',
             display:'block',
         }).to(jQuery('.geek-nav'), 1,{
@@ -60,7 +60,7 @@ angular.module('geek') .directive('geekIntro', function () {
             marginLeft:'0px',
             display:'block',
         }).from(jQuery('.geek-nav').find('.geek-header'),0.50,{
-            
+
             marginLeft:'-250px',
             marginTop:'-250px',
             display:'block'
@@ -93,10 +93,11 @@ angular.module('geek') .directive('geekIntro', function () {
             width:'80%'
         }).to('#profile',1,{
             width:'auto'
-        }).to('#profile',2,{
-            display:'block',
-            rotation:360
         });
+        // .to('#profile',2,{
+        //     display:'block',
+        //     rotation:360
+        // });
         scope.play = function () {
             tl.play();
             //            t2.play();
@@ -109,9 +110,9 @@ angular.module('geek') .directive('geekIntro', function () {
             //            t3.reverse();
         };
         //tl.play();
-        
-       
-       
+
+
+
         scope.getContent=function(content){
             content=content?content:'profile';
             var t=new TimelineLite();
