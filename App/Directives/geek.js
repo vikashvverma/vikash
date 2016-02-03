@@ -129,11 +129,12 @@ angular.module('geek') .directive('geekIntro', function () {
             }).to('#'+content,0,{
                 width:'auto',
                 height:'auto'
-            }).from('#'+content,2,{
-                delay:1,
-                display:'block',
-                rotation:360
             });
+            // .from('#'+content,2,{
+            //     delay:1,
+            //     display:'block',
+            //     rotation:360
+            // });
 
         };
         //t.play();
