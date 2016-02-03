@@ -1,2 +1,2 @@
 # vikash
-Source Code for http://vikash.programminggeek.in/
+My personal website and blog >> http://www.vikashverma.com/
