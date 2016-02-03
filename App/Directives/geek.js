@@ -93,11 +93,10 @@ angular.module('geek') .directive('geekIntro', function () {
             width:'80%'
         }).to('#profile',1,{
             width:'auto'
+        }).to('#profile',2,{
+            display:'block',
+            rotation:360
         });
-        // .to('#profile',2,{
-        //     display:'block',
-        //     rotation:360
-        // });
         scope.play = function () {
             tl.play();
             //            t2.play();
