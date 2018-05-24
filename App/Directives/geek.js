@@ -116,20 +116,20 @@ angular.module('geek') .directive('geekIntro', function () {
             content=content?content:'profile';
             var t=new TimelineLite();
             scope.geek.content=content;
-            t.to('#'+content,0,{
-                width:'0px',
-                height:'0px',
-                display:'block'
-            }).to('#'+content,0.5,{
-                width:'10%',
-                height:'10%'
-            }).to('#'+content,3,{
-                width:'80%',
-                height:'80%'
-            }).to('#'+content,0,{
-                width:'auto',
-                height:'auto'
-            });
+            // t.to('#'+content,0,{
+            //     width:'0px',
+            //     height:'0px',
+            //     display:'block'
+            // }).to('#'+content,0.5,{
+            //     width:'10%',
+            //     height:'10%'
+            // }).to('#'+content,3,{
+            //     width:'80%',
+            //     height:'80%'
+            // }).to('#'+content,0,{
+            //     width:'auto',
+            //     height:'auto'
+            // });
             // .from('#'+content,2,{
             //     delay:1,
             //     display:'block',
