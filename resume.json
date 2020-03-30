@@ -1,0 +1,186 @@
+{
+  "selectedTemplate": 2,
+  "headings": {
+    "awards": "Honors & Awards"
+  },
+  "basics": {
+    "name": "Vikash Kumar Verma",
+    "email": "vikash@vikashverma.com",
+    "phone": "(+91) 7411819945",
+    "location": {
+      "address": "Bengaluru, IN"
+    },
+    "website": "https://github.com/vikashvverma https://www.vikashverma.com/"
+  },
+  "education": [
+    {
+      "institution": "BIT Sindri",
+      "location": "Dhanbad, Jharkhand, IN",
+      "studyType": "B. Tech.",
+      "area": "Computer Science & Engineering",
+      "gpa": "8.51",
+      "endDate": "July 2014",
+      "startDate": "June 2010"
+    }
+  ],
+  "work": [
+    {
+      "company": "CAST R&D",
+      "location": "Bengaluru, IN",
+      "position": "Senior Software Engineer",
+      "website": "",
+      "startDate": "November 2017",
+      "highlights": [
+        "Working on a product to visualize application architecture"
+      ],
+      "endDate": "August 2019"
+    },
+    {
+      "highlights": [
+        "Test driven development of microservices in Golang",
+        "Development of end to end features",
+        "Work on all stacks"
+      ],
+      "company": "ThoughtWorks",
+      "position": "Application Developer",
+      "location": "Bengaluru, IN",
+      "startDate": "October 2015",
+      "endDate": "November 2017"
+    },
+    {
+      "highlights": [
+        "Development of components of a web based IDE muVCL",
+        "Development of preview & export feature of IDE"
+      ],
+      "company": "Mu Sigma",
+      "position": "Developer",
+      "location": "Bengaluru, IN",
+      "startDate": "July 2014",
+      "endDate": "October 2015"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Go, JavaScript"
+      ],
+      "name": "Languages"
+    },
+    {
+      "keywords": [
+        "HTML, CSS, JSON"
+      ],
+      "name": "Markup & Formats"
+    },
+    {
+      "keywords": [
+        "MSSQL Server, PostgreSQL, Neo4J"
+      ],
+      "name": "Databases"
+    },
+    {
+      "keywords": [
+        "NodeJS, Express, React"
+      ],
+      "name": "Libraries & Framework"
+    },
+    {
+      "keywords": [
+        "git"
+      ],
+      "name": "Version Control"
+    },
+    {
+      "keywords": [
+        "Data Structure, CI/CD, TDD, Agile, Microservices, Nginx, REST, ElasticSearch, Neo4J"
+      ],
+      "name": "Others"
+    },
+    {
+      "keywords": [
+        "Docker, Kubernetes, AWS, GCP"
+      ],
+      "name": "DevOps"
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        "Go, JavaScript, Neo4J"
+      ],
+      "name": "Imaging System",
+      "description": "Provides insights into the most complex software system",
+      "url": "https://www.castsoftware.com/products/imaging-system"
+    },
+    {
+      "keywords": [
+        "Go, Scala, React, Redux"
+      ],
+      "url": "https://www.periscope-solutions.com/",
+      "description": "THIS PRODUCT ALLOWS A RETAIL GIANT TO FORECAST, RECOMMEND AND SET STRATEGIES FOR RETAIL PRODUCTS",
+      "name": "Analytics Solution for Retail"
+    },
+    {
+      "keywords": [
+        "NodeJS, Express, Backbone"
+      ],
+      "url": "https://www.mu-sigma.com/our-platform/software/muvcl",
+      "description": "MUVCL IS A USER INTERFACE DESIGN, PROTOTYPING AND DEPLOYMENT SOLUTION FOR ENTERPRISE-READY ANALYTICAL APPLICATIONS",
+      "name": "muVCL"
+    },
+    {
+      "keywords": [
+        "NodeJS, Angular"
+      ],
+      "url": "https://etest.programminggeek.in/",
+      "description": "ETEST IS AN ONLINE PLATFORM TO PRACTICE, ANALYZE AND IMPROVE VERBAL AND ANALYTICAL SKILLS. THERE ARE 20K+ REGISTERED USER AND MORE THAN 70K TESTS TAKEN",
+      "name": "etest"
+    }
+  ],
+  "awards": [
+    {
+      "date": "January 2019",
+      "awarder": "CAST",
+      "title": "Team Award",
+      "summary": "Recognized as the best team for the Imaging project"
+    },
+    {
+      "date": "March 2016",
+      "title": "IndiaHacks",
+      "summary": "Won third prize in OpenSource category of IndiaHacks organised by HackerEarth",
+      "awarder": "HackerEarth"
+    },
+    {
+      "title": "Spot Award",
+      "date": "Aug 2015",
+      "awarder": "Mu Sigma",
+      "summary": "Spot award for contribution in muVCL at Mu Sigma"
+    },
+    {
+      "date": "May 2015",
+      "title": "Gainsight Challenge",
+      "awarder": "Gainsight",
+      "summary": "Won Gainsight App Development Challenge and 50K INR organized by Gainsight on Hackerearth"
+    },
+    {
+      "title": "MuPhoria",
+      "date": "Aug 2013",
+      "awarder": "Mu Sigma",
+      "summary": "Won MuPhoria ( July ) second edition and a sum of 2 Lakhs rupees"
+    },
+    {
+      "title": "Participations",
+      "summary": "Participated in many hackathons like Societe Generale (Brainwaves 2019) , SequoiaHack(2015, 2016), InMobiHack, TechNgage(NASSCOM), Citrix Code Master, Aspirations2020(Infosys),  etc. and developed many cool apps"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
