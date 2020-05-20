@@ -25,10 +25,23 @@
   ],
   "work": [
     {
+      "company": "AirAsia",
+      "location": "Bengaluru, IN",
+      "position": "Senior Software Engineer",
+      "website": "https://www.airasia.com",
+      "startDate": "August 2019",
+      "highlights": [
+        "Working on Hotel Platform",
+        "Bounced user retention",
+        "Hotel in Flight Path"
+      ],
+      "endDate": "present"
+    },
+    {
       "company": "CAST R&D",
       "location": "Bengaluru, IN",
       "position": "Senior Software Engineer",
-      "website": "",
+      "website": "https://www.castsoftware.com",
       "startDate": "November 2017",
       "highlights": [
         "Working on a product to visualize application architecture"
@@ -41,6 +54,7 @@
         "Development of end to end features",
         "Work on all stacks"
       ],
+      "website": "https://www.thoughtworks.com",
       "company": "ThoughtWorks",
       "position": "Application Developer",
       "location": "Bengaluru, IN",
@@ -52,6 +66,7 @@
         "Development of components of a web based IDE muVCL",
         "Development of preview & export feature of IDE"
       ],
+      "website": "https://www.mu-sigma.com",
       "company": "Mu Sigma",
       "position": "Developer",
       "location": "Bengaluru, IN",
@@ -66,6 +81,12 @@
         "Go, JavaScript"
       ],
       "name": "Languages"
+    },
+    {
+      "keywords": [
+        "Docker, Kubernetes, AWS, GCP"
+      ],
+      "name": "DevOps"
     },
     {
       "keywords": [
@@ -96,12 +117,6 @@
         "Data Structure, CI/CD, TDD, Agile, Microservices, Nginx, REST, ElasticSearch, Neo4J"
       ],
       "name": "Others"
-    },
-    {
-      "keywords": [
-        "Docker, Kubernetes, AWS, GCP"
-      ],
-      "name": "DevOps"
     }
   ],
   "projects": [
